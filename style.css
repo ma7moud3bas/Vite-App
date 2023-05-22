@@ -44,7 +44,6 @@
   --size-900: 5rem;
 }
 
-
 @media (min-width: 50em) {
   :root {
     --fs-body: var(--fs-500);
@@ -139,11 +138,10 @@ p[data-width="wide"] {
 
 /* button */
 
-
 .button {
   display: inline-flex;
   cursor: pointer;
-  
+
   text-decoration: none;
   border: 0;
   border-radius: 100vmax;
@@ -168,7 +166,6 @@ p[data-width="wide"] {
   background-color: var(--clr-accent-400);
   box-shadow: 0 1.125em 1em -1em var(--clr-accent-500);
 }
-
 
 .button[data-type="inverted"] {
   background-color: var(--clr-neutral-100);
@@ -230,7 +227,6 @@ p[data-width="wide"] {
   .primary-navigation {
     display: none;
 
-   
     position: fixed;
     z-index: 9999;
 
@@ -276,11 +272,10 @@ p[data-width="wide"] {
   .mobile-nav-toggle .icon-close {
     display: none;
   }
-  
+
   .button-1 {
     display: none;
   }
-
 }
 
 /* footer */
